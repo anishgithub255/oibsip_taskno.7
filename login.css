@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Changed font for better readability */
+}
+
+.background-container {
+    background-image: linear-gradient(to top right, #4e54c8, #8f94fb); /* Adjusted gradient colors */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-container {
+    background-color: white;
+    width: 70%;
+    height: 75%;
+    border-radius: 20px; /* Increased border radius */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+}
+
+.login-logo {
+    max-width: 40%;
+    border-radius: 20px; /* Increased border radius */
+    padding: 0px;
+    align-content: left;
+}
+
+.container {
+    margin: 0px;
+    width: 40%;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px; /* Adjusted margin top for better spacing */
+}
+
+.heading {
+    font-weight: bolder;
+    font-size: 28px; /* Increased font size */
+    margin: 10px 0; /* Adjusted margin for better spacing */
+}
+
+.sub-heading {
+    font-size: 16px; /* Increased font size */
+    color: #666; /* Darkened color for better contrast */
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+label {
+    font-size: 18px; /* Increased font size */
+}
+
+.success-icon {
+    color: #6aed4a;
+    font-size: 100px; /* Increased font size */
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+}
+
+.success-container {
+    margin: 20px 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-message {
+    font-size: 26px; /* Increased font size */
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+    text-align: center;
+}
+
+.secure-page-message {
+    font-size: 20px; /* Increased font size */
+    margin-bottom: 50px; /* Adjusted margin for better spacing */
+    text-align: center;
+}
+
+.registration-message {
+    color: green;
+    margin-top: 10px; /* Adjusted margin top for better spacing */
+    font-weight: bold;
+}
+
+.custom-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px; /* Increased font size */
+    color: #333; /* Darkened color for better contrast */
+    background-color: #f8f8f8; /* Lightened background color */
+    border: 2px solid #ccc; /* Lightened border color */
+    border-radius: 10px; /* Increased border radius */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.custom-input:focus {
+    border-color: #6267f5; /* Highlighted border color on focus */
+    outline: none; /* Removed outline */
+    box-shadow: 0 0 0 3px rgba(98, 103, 245, 0.2); /* Added box shadow on focus */
+}
+
+@media screen and (max-width: 768px) {
+    /* Media query styles */
+}
